@@ -48,3 +48,7 @@ https://blog.ailemon.me/2019/02/26/solution-to-loss-doesnt-drop-in-nn-train/
  
 
 12.特征工程中对数据特征的选取有问题
+https://morvanzhou.github.io/tutorials/machine-learning/torch/2-02-variable/
+https://blog.csdn.net/caicai2526/article/details/79984950
+https://space.bilibili.com/45151802?spm_id_from=333.788.b_765f7570696e666f.2
+https://zhuanlan.zhihu.com/p/31426458
