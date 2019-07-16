@@ -49,6 +49,19 @@ https://blog.ailemon.me/2019/02/26/solution-to-loss-doesnt-drop-in-nn-train/
 
 12.特征工程中对数据特征的选取有问题
 https://morvanzhou.github.io/tutorials/machine-learning/torch/2-02-variable/
+
 https://blog.csdn.net/caicai2526/article/details/79984950
+
 https://space.bilibili.com/45151802?spm_id_from=333.788.b_765f7570696e666f.2
+
+https://zhuanlan.zhihu.com/p/52007005
+
 https://zhuanlan.zhihu.com/p/31426458
+
+https://www.coursera.org/courses?query=keras&indices%5Bprod_all_products_custom_ranking_revenuelast28d%5D%5Bpage%5D=4&indices%5Bprod_all_products_custom_ranking_revenuelast28d%5D%5Bconfigure%5D%5BclickAnalytics%5D=true&indices%5Bprod_all_products_custom_ranking_revenuelast28d%5D%5Bconfigure%5D%5BhitsPerPage%5D=10&configure%5BclickAnalytics%5D=true
+
+https://paperswithcode.com
+
+https://blog.csdn.net/nuanxin_520/article/details/72818330
+
+http://www.arxiv-sanity.com/search?q=face+detection
