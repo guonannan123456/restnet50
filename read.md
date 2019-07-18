@@ -1,4 +1,4 @@
-解决loss值不下降问题（转）
+## 解决loss值不下降问题（转）
 https://blog.ailemon.me/2019/02/26/solution-to-loss-doesnt-drop-in-nn-train/
 
  
@@ -48,6 +48,7 @@ https://blog.ailemon.me/2019/02/26/solution-to-loss-doesnt-drop-in-nn-train/
  
 
 12.特征工程中对数据特征的选取有问题
+
 https://morvanzhou.github.io/tutorials/machine-learning/torch/2-02-variable/
 
 https://blog.csdn.net/caicai2526/article/details/79984950
@@ -69,5 +70,5 @@ http://www.arxiv-sanity.com/search?q=face+detection
 ## 卷积神经网络反向求导时对池化层怎么处理
 
 无论max pooling还是mean pooling，都没有需要学习的参数。因此，在卷积神经网络的训练中，Pooling层需要做的仅仅是将误差项传递到上一层，而没有梯度的计算。
-（1）max pooling层：对于max pooling，下一层的误差项的值会原封不动的传递到上一层对应区块中的最大值所对应的神经元，而其他神经元的误差项的值都是0；
-（2）mean pooling层：对于mean pooling，下一层的误差项的值会平均分配到上一层对应区块中的所有神经元
++（1）max pooling层：对于max pooling，下一层的误差项的值会原封不动的传递到上一层对应区块中的最大值所对应的神经元，而其他神经元的误差项的值都是0；
++（2）mean pooling层：对于mean pooling，下一层的误差项的值会平均分配到上一层对应区块中的所有神经元
