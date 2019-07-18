@@ -72,3 +72,5 @@ http://www.arxiv-sanity.com/search?q=face+detection
 无论max pooling还是mean pooling，都没有需要学习的参数。因此，在卷积神经网络的训练中，Pooling层需要做的仅仅是将误差项传递到上一层，而没有梯度的计算。
 + （1）max pooling层：对于max pooling，下一层的误差项的值会原封不动的传递到上一层对应区块中的最大值所对应的神经元，而其他神经元的误差项的值都是0；
 + （2）mean pooling层：对于mean pooling，下一层的误差项的值会平均分配到上一层对应区块中的所有神经元
+## 神经网络权值为什么不能初始化为零（1）
++ https://www.cnblogs.com/lky-learning/p/10830223.html
