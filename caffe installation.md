@@ -143,7 +143,8 @@ links:
 	https://github.com/yahoo/open_nsfw/issues/13
 	https://github.com/BVLC/caffe/issues/50
 
-5.pip错误 ImportError: No module named _internal
+5.
+pip错误 ImportError: No module named _internal
 
 error at _import caffe_ in python:
 <pre>
@@ -156,6 +157,7 @@ solve:
 links:
 	https://stackoverflow.com/questions/37666241/importing-caffe-results-in-importerror-no-module-named-google-protobuf-interna
 	https://stackoverflow.com/questions/37666241/importing-caffe-results-in-importerror-no-module-named-google-protobuf-interna/37905483
+	
 6.
 error pip错误 ImportError: No module named _internal
 <pre>
@@ -173,6 +175,8 @@ solve:
 	 
 	sudo python3 get-pip.py --force-reinstall
 </pre>
+
+7.
 <pre>
 	安装 requirements.txt列表
 	pip install -r requirements.txt -i --user
@@ -187,7 +191,7 @@ solve:
 	for req in $(cat requirements.txt); do sudo pip install $req; done
 </pre>
 
-
+8.
 error 
 <pre>
 	from pip import __main__
@@ -199,6 +203,7 @@ solve:
 	sudo python get-pip.py
 </pre>
 
+9.
 error 
 <pre>
 	g++: internal compiler error: Killed (program cc1plus)
@@ -222,6 +227,7 @@ solve:
 	sudo rm /swapfile
 </pre>
 
+10.
 <pre>
 	caffe+python3.5的配置
 	打开Makefile.config
