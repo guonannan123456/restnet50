@@ -167,7 +167,7 @@ error pip错误 ImportError: No module named _internal
 	from pip._internal import main
 	 
 	ImportError: No module named _internal
-<pre>
+</pre>
 solve:
 <pre>
 	强制重新安装pip3
@@ -192,7 +192,7 @@ solve:
 </pre>
 
 8.
-error 
+error：
 <pre>
 	from pip import __main__
 	ImportError: No module named 'pip'
@@ -204,7 +204,7 @@ solve:
 </pre>
 
 9.
-error 
+error：
 <pre>
 	g++: internal compiler error: Killed (program cc1plus)
 	Please submit a full bug report,
@@ -231,14 +231,13 @@ solve:
 <pre>
 	caffe+python3.5的配置
 	打开Makefile.config
+	去掉下面的注释：
 
-    去掉下面的注释：
-
-      PYTHON_LIBRARIES := boost_python3 python3.5m
-      PYTHON_INCLUDE := /usr/include/python3.5m \
+	PYTHON_LIBRARIES := boost_python3 python3.5m
+	PYTHON_INCLUDE := /usr/include/python3.5m \
                                             /usr/lib/python3.5/dist-packages/numpy/core/include
 
-      然后重新编译。
+	然后重新编译。
 
       如果编译过程中遇到cannot find -lboost_python3     
 
