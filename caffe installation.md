@@ -239,13 +239,13 @@ solve:
 
 	然后重新编译。
 
-      如果编译过程中遇到cannot find -lboost_python3     
+	如果编译过程中遇到cannot find -lboost_python3     
 
-      查看/usr/lib/x86_64-linux-gnu下只有：libboost_python-py35.so
+	查看/usr/lib/x86_64-linux-gnu下只有：libboost_python-py35.so
 
-      问题解决办法，将boost_python3改成boost_python-py35
+ 	问题解决办法，将boost_python3改成boost_python-py35
 
-      PYTHON_LIBRARIES := boost_python-py35 python3.5m      
+	PYTHON_LIBRARIES := boost_python-py35 python3.5m      
 
 
 </pre>
