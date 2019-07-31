@@ -43,11 +43,13 @@ https://blog.csdn.net/wuzuyu365/article/details/52430657
 		ubuntu-drivers devices
 	采用apt-get命令在终端安装：
 		sudo apt-get install nvidia-430 nvidia-settings nvidia-prime
-	4.重啓驗證
+	4. 重啓驗證
 		sudo reboot
 		nvidia-smi
 + 3.2 install cuda (9.0)
-	https://blog.csdn.net/Angela_happy/article/details/80977265
+
+	- https://blog.csdn.net/Angela_happy/article/details/80977265
+	
 error
 <pre>
 	Missing recommended library: libGLU.so
@@ -59,7 +61,8 @@ solve:
 	sudo apt-get install libglu1-mesa libxi-dev libxmu-dev libglu1-mesa-dev
 </pre>
 + 3.3 cudnn (7.0)
-	https://blog.csdn.net/Angela_happy/article/details/80977691
+
+	- https://blog.csdn.net/Angela_happy/article/details/80977691
 
 ### Adapt caffe config files
 1. download caffe: [github link](https://github.com/BVLC/caffe)
