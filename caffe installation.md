@@ -24,6 +24,42 @@ https://blog.csdn.net/wuzuyu365/article/details/52430657
 
 3. install cuda (9.0), cudnn (7.0), opencv (3.4.0)
 
+3.1 安裝驅動
+主要步骤：
+
+1.卸载系统里的Nvidia低版本显卡驱动
+
+sudo apt-get purge nvidia*
+
+2.把显卡驱动加入PPA
+
+    sudo add-apt-repository ppa:graphics-drivers
+    sudo apt-get update
+
+3.查找安裝显卡驱动最新的版本号
+查找并安装最新驱动
+    sudo apt-cache search nvidia
+或可使用终端命令查看Ubuntu推荐的驱动版本：
+    ubuntu-drivers devices
+采用apt-get命令在终端安装：
+    sudo apt-get install nvidia-430 nvidia-settings nvidia-prime
+4.重啓驗證
+    sudo reboot
+    nvidia-smi
+3.2 install cuda (9.0)
+https://blog.csdn.net/Angela_happy/article/details/80977265
+error
+<pre>
+	Missing recommended library: libGLU.so
+	Missing recommended library: libXi.so
+	Missing recommended library: libXmu.so
+</pre>
+solve:
+<pre>
+	sudo apt-get install libglu1-mesa libxi-dev libxmu-dev libglu1-mesa-dev
+</pre>
+3.3 cudnn (7.0)
+https://blog.csdn.net/Angela_happy/article/details/80977691
 
 ### Adapt caffe config files
 1. download caffe: [github link](https://github.com/BVLC/caffe)
