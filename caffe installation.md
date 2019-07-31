@@ -1,4 +1,4 @@
-## caffe model
+# caffe model
 https://github.com/soeaver/caffe-model/tree/master/cls
 
 ## Install caffe on Ubuntu 16.04 with gpu
@@ -8,8 +8,8 @@ https://github.com/BVLC/caffe/wiki/Ubuntu-16.04-or-15.10-Installation-Guide
 https://blog.csdn.net/wuzuyu365/article/details/52430657
 
 
-### Install thirdparty packages
-1. install packages
+## Install thirdparty packages
+### 1. install packages
 <pre> 
 	sudo apt update
 	sudo apt upgrade
@@ -20,7 +20,7 @@ https://blog.csdn.net/wuzuyu365/article/details/52430657
 	sudo apt install -y libgflags-dev libgoogle-glog-dev liblmdb-dev
 </pre>
 
-2. install python3.5
+### 2. install python3.5
 
 【说明】
 
@@ -45,7 +45,7 @@ https://blog.csdn.net/wuzuyu365/article/details/52430657
 
 	  4、大功告成，此时在终端再输入python，输出的信息就是3.5版本了。
 
-3. install cuda (9.0), cudnn (7.0), opencv (3.4.0)
+### 3. install cuda (9.0), cudnn (7.0), opencv (3.4.0)
 
 3.1 安裝驅動
 
