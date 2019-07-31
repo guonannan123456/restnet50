@@ -46,7 +46,7 @@ https://blog.csdn.net/wuzuyu365/article/details/52430657
 	4.重啓驗證
 		sudo reboot
 		nvidia-smi
-3.2 install cuda (9.0)
++ 3.2 install cuda (9.0)
 	https://blog.csdn.net/Angela_happy/article/details/80977265
 error
 <pre>
@@ -58,7 +58,7 @@ solve:
 <pre>
 	sudo apt-get install libglu1-mesa libxi-dev libxmu-dev libglu1-mesa-dev
 </pre>
-3.3 cudnn (7.0)
++ 3.3 cudnn (7.0)
 	https://blog.csdn.net/Angela_happy/article/details/80977691
 
 ### Adapt caffe config files
