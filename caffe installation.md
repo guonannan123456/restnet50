@@ -47,8 +47,9 @@ https://blog.csdn.net/wuzuyu365/article/details/52430657
 
 3. install cuda (9.0), cudnn (7.0), opencv (3.4.0)
 
-+ 3.1 安裝驅動
-主要步骤：
+3.1 安裝驅動
+
+	主要步骤：
 
 	- 1.卸载系统里的Nvidia低版本显卡驱动
 
@@ -69,7 +70,7 @@ https://blog.csdn.net/wuzuyu365/article/details/52430657
 	- 4.重啓驗證
 		sudo reboot
 		nvidia-smi
-+ 3.2 install cuda (9.0)
+3.2 install cuda (9.0)
 
 	https://blog.csdn.net/Angela_happy/article/details/80977265
 	
@@ -83,9 +84,10 @@ https://blog.csdn.net/wuzuyu365/article/details/52430657
 	<pre>
 		sudo apt-get install libglu1-mesa libxi-dev libxmu-dev libglu1-mesa-dev
 	</pre>
-+ 3.3 install cudnn (7.0)
+3.3 install cudnn (7.0)
 
 	cudnn的安装非常简单 https://blog.csdn.net/wanzhen4330/article/details/81699769
+	
 
 	- （1）下载安装文件
 
