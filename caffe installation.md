@@ -50,16 +50,16 @@ https://blog.csdn.net/wuzuyu365/article/details/52430657
 
 	- https://blog.csdn.net/Angela_happy/article/details/80977265
 	
-error
-<pre>
-	Missing recommended library: libGLU.so
-	Missing recommended library: libXi.so
-	Missing recommended library: libXmu.so
-</pre>
-solve:
-<pre>
-	sudo apt-get install libglu1-mesa libxi-dev libxmu-dev libglu1-mesa-dev
-</pre>
+	error
+	<pre>
+		Missing recommended library: libGLU.so
+		Missing recommended library: libXi.so
+		Missing recommended library: libXmu.so
+	</pre>
+	solve:
+	<pre>
+		sudo apt-get install libglu1-mesa libxi-dev libxmu-dev libglu1-mesa-dev
+	</pre>
 + 3.3 cudnn (7.0)
 
 	- https://blog.csdn.net/Angela_happy/article/details/80977691
@@ -70,15 +70,15 @@ solve:
 2. If download caffe from [github link](https://github.com/BVLC/caffe), the version should be 1.0. Go to caffe folder, edit _/src/caffe/util/blocking_queue.cpp_, after line 89, add new line: _template class BlockingQueue<Datum*>;_
 
 3. Modify Makefile.config
-3.1 _cp Makefile.config.example Makefile.config_
-3.2 edit Makefile.config, find and modify the following lines:
++ 3.1 _cp Makefile.config.example Makefile.config_
++ 3.2 edit Makefile.config, find and modify the following lines:
 <pre>
 	PYTHON_INCLUDE := /usr/include/python2.7 /usr/local/lib/python2.7/dist-packages/numpy/core/include  
 	WITH_PYTHON_LAYER := 1  
 	INCLUDE_DIRS := $(PYTHON_INCLUDE) /usr/local/include /usr/include/hdf5/serial  
 	LIBRARY_DIRS := $(PYTHON_LIB) /usr/local/lib /usr/lib /usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/hdf5/serial  
 </pre>
-3.3 since cuda 8.0, compute capability 2.0 and 2.1 are discarded, so delete the following two lines:
++ 3.3 since cuda 8.0, compute capability 2.0 and 2.1 are discarded, so delete the following two lines:
 <pre>
 	-gencode arch=compute_20,code=sm_20
 	-gencode arch=compute_20,code=sm_21
