@@ -88,6 +88,7 @@ https://blog.csdn.net/wuzuyu365/article/details/52430657
 		cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
 
 	如果出现以下信息，说明安装成功。 
+	
 		#define CUDNN_MAJOR 7
 		#define CUDNN_MINOR 0
 		#define CUDNN_PATCHLEVEL 5
