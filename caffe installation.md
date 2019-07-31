@@ -72,7 +72,7 @@ https://blog.csdn.net/wuzuyu365/article/details/52430657
 		nvidia-smi
 3.2 install cuda (9.0)
 
-	https://blog.csdn.net/Angela_happy/article/details/80977265
+https://blog.csdn.net/Angela_happy/article/details/80977265
 	
 	error
 	<pre>
@@ -86,11 +86,13 @@ https://blog.csdn.net/wuzuyu365/article/details/52430657
 	</pre>
 3.3 install cudnn (7.0)
 
-	cudnn的安装非常简单 https://blog.csdn.net/wanzhen4330/article/details/81699769
+	cudnn的安装非常简单 
+https://blog.csdn.net/wanzhen4330/article/details/81699769
 
 	（1）下载安装文件
 
-	按需求下载cudnn的安装文件：https://developer.nvidia.com/rdp/cudnn-archive
+	按需求下载cudnn的安装文件：
+https://developer.nvidia.com/rdp/cudnn-archive
 
 	（2）安装cudnn
 	
@@ -131,7 +133,7 @@ https://blog.csdn.net/wuzuyu365/article/details/52430657
 		Cuda compilation tools, release 8.0, V8.0.61
 3.4 install opencv (3.4.0)
 
-	https://blog.csdn.net/xd1723138323/article/details/80498381
+https://blog.csdn.net/xd1723138323/article/details/80498381
 
 ### Adapt caffe config files
 1. download caffe: [github link](https://github.com/BVLC/caffe)
