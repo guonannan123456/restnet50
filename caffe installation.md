@@ -340,7 +340,9 @@ install python3.5
 
 	  4、大功告成，此时在终端再输入python，输出的信息就是3.5版本了。
 <pre>
-	caffe+python3.5的配置
+
+caffe+python3.5的配置
+
 	打开Makefile.config
 	去掉下面的注释：
 
