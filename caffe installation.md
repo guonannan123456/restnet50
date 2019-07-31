@@ -60,9 +60,9 @@ https://blog.csdn.net/wuzuyu365/article/details/52430657
 	<pre>
 		sudo apt-get install libglu1-mesa libxi-dev libxmu-dev libglu1-mesa-dev
 	</pre>
-+ 3.3 cudnn (7.0)
++ 3.3 install cudnn (7.0)
 
-	cudnn的安装非常简单， https://blog.csdn.net/wanzhen4330/article/details/81699769
+	cudnn的安装非常简单 https://blog.csdn.net/wanzhen4330/article/details/81699769
 
 	- （1）下载安装文件
 
@@ -70,41 +70,39 @@ https://blog.csdn.net/wuzuyu365/article/details/52430657
 
 	- （2）安装cudnn
 	
-	 解压下载的文件，可以看到cuda文件夹，在当前目录打开终端，执行如下命令：
-	    tar -zxvf cudnn-8.0-linux-x64-v6.0.tgz 
+	解压下载的文件，可以看到cuda文件夹，在当前目录打开终端，执行如下命令：
+		tar -zxvf cudnn-8.0-linux-x64-v6.0.tgz 
 
-	    sudo cp cuda/include/cudnn.h /usr/local/cuda/include/
+		sudo cp cuda/include/cudnn.h /usr/local/cuda/include/
 
-	    sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64/ -d
+		sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64/ -d
 
-	    sudo chmod a+r /usr/local/cuda/include/cudnn.h
+		sudo chmod a+r /usr/local/cuda/include/cudnn.h
 
-	    sudo chmod a+r /usr/local/cuda/lib64/libcudnn*
+		sudo chmod a+r /usr/local/cuda/lib64/libcudnn*
 	 - （3）查看cudnn版本
 	 
 
-		在终端输入
+	在终端输入
 
 		cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
 
-		如果出现以下信息，说明安装成功。 
-		    #define CUDNN_MAJOR 7
-		    #define CUDNN_MINOR 0
-		    #define CUDNN_PATCHLEVEL 5
+	如果出现以下信息，说明安装成功。 
+		#define CUDNN_MAJOR 7
+		#define CUDNN_MINOR 0
+		#define CUDNN_PATCHLEVEL 5
 			--
-		    #define CUDNN_VERSION    (CUDNN_MAJOR * 1000 + CUDNN_MINOR * 100 + CUDNN_PATCHLEVEL)
+		#define CUDNN_VERSION    (CUDNN_MAJOR * 1000 + CUDNN_MINOR * 100 + CUDNN_PATCHLEVEL)
 
-		    #include "driver_types.h"
+		#include "driver_types.h"
 
+	安装完成后可用 nvcc -V 命令验证是否安装成功，若出现以下信息则表示安装成功：
 
-		安装完成后可用 nvcc -V 命令验证是否安装成功，若出现以下信息则表示安装成功：
-
-		    yhao@yhao-X550VB:~$ nvcc -V
-		    nvcc: NVIDIA (R) Cuda compiler driver
-		    Copyright (c) 2005-2016 NVIDIA Corporation
-		    Built on Tue_Jan_10_13:22:03_CST_2017
-		    Cuda compilation tools, release 8.0, V8.0.61
-
+		yhao@yhao-X550VB:~$ nvcc -V
+		nvcc: NVIDIA (R) Cuda compiler driver
+		Copyright (c) 2005-2016 NVIDIA Corporation
+		Built on Tue_Jan_10_13:22:03_CST_2017
+		Cuda compilation tools, release 8.0, V8.0.61
 
 
 ### Adapt caffe config files
