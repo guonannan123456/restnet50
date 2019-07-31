@@ -129,7 +129,9 @@ https://blog.csdn.net/wuzuyu365/article/details/52430657
 		Copyright (c) 2005-2016 NVIDIA Corporation
 		Built on Tue_Jan_10_13:22:03_CST_2017
 		Cuda compilation tools, release 8.0, V8.0.61
+3.4 install opencv (3.4.0)
 
+	https://blog.csdn.net/xd1723138323/article/details/80498381
 
 ### Adapt caffe config files
 1. download caffe: [github link](https://github.com/BVLC/caffe)
