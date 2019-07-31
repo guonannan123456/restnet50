@@ -22,19 +22,19 @@ https://blog.csdn.net/wuzuyu365/article/details/52430657
 
 2. install python3.5
 
-	【说明】
+【说明】
 
 	  正常情况下你的ubuntu系统是已经自带了python的，不过自带的版本是2.7的，而现在的Python3.5和2.7其实已经非常不同了，作为开发学习的话还是新版本的Python3.5吧。
 
-	【安装】
+【安装】
 
-	  1. 首先python不在ubuntu的软件仓库，所以我们需要去PPA上找软件源，打开终端，输入下面的命令：sudo add-apt-repository ppa:fkrull/deadsnakes  
+	  1、首先python不在ubuntu的软件仓库，所以我们需要去PPA上找软件源，打开终端，输入下面的命令：sudo add-apt-repository ppa:fkrull/deadsnakes  
 
 	  2、fkrull/deadsnakes就是ubuntu提供的python的repository。接下来接着输入：sudo apt-get update  
 
 	  3、sudo apt-get install python3.5 
 
-	【修改配置】
+【修改配置】
 
 	  1、安装完成之后，你在终端中输入python，输出的信息里面会提示是2.7版本的，也就是说默认打开的并不是刚才安装好的3.5，所以还需要我们重新修改一下链接。方法如下：第一步：先备份原来的链接（在对系统文件执行删除之前进行备份是个好习惯）
 
