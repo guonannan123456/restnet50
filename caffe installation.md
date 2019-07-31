@@ -51,23 +51,23 @@ https://blog.csdn.net/wuzuyu365/article/details/52430657
 
 	主要步骤：
 
-	- 1.卸载系统里的Nvidia低版本显卡驱动
+	1.卸载系统里的Nvidia低版本显卡驱动
 
 		sudo apt-get purge nvidia*
 
-	- 2.把显卡驱动加入PPA
+	2.把显卡驱动加入PPA
 
 		sudo add-apt-repository ppa:graphics-drivers
 		sudo apt-get update
 
-	- 3.查找安裝显卡驱动最新的版本号
+	3.查找安裝显卡驱动最新的版本号
 	查找并安装最新驱动
 		sudo apt-cache search nvidia
 	或可使用终端命令查看Ubuntu推荐的驱动版本：
 		ubuntu-drivers devices
 	采用apt-get命令在终端安装：
 		sudo apt-get install nvidia-430 nvidia-settings nvidia-prime
-	- 4.重啓驗證
+	4.重啓驗證
 		sudo reboot
 		nvidia-smi
 3.2 install cuda (9.0)
@@ -87,13 +87,12 @@ https://blog.csdn.net/wuzuyu365/article/details/52430657
 3.3 install cudnn (7.0)
 
 	cudnn的安装非常简单 https://blog.csdn.net/wanzhen4330/article/details/81699769
-	
 
-	- （1）下载安装文件
+	（1）下载安装文件
 
 	按需求下载cudnn的安装文件：https://developer.nvidia.com/rdp/cudnn-archive
 
-	- （2）安装cudnn
+	（2）安装cudnn
 	
 	解压下载的文件，可以看到cuda文件夹，在当前目录打开终端，执行如下命令：
 	
@@ -107,9 +106,8 @@ https://blog.csdn.net/wuzuyu365/article/details/52430657
 
 		sudo chmod a+r /usr/local/cuda/lib64/libcudnn*
 		
-	 - （3）查看cudnn版本
+	（3）查看cudnn版本
 	 
-
 	在终端输入
 
 		cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
