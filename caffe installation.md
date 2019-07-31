@@ -48,7 +48,7 @@ https://blog.csdn.net/wuzuyu365/article/details/52430657
 		nvidia-smi
 + 3.2 install cuda (9.0)
 
-	- https://blog.csdn.net/Angela_happy/article/details/80977265
+	https://blog.csdn.net/Angela_happy/article/details/80977265
 	
 	error
 	<pre>
@@ -71,6 +71,7 @@ https://blog.csdn.net/wuzuyu365/article/details/52430657
 	- （2）安装cudnn
 	
 	解压下载的文件，可以看到cuda文件夹，在当前目录打开终端，执行如下命令：
+	
 		tar -zxvf cudnn-8.0-linux-x64-v6.0.tgz 
 
 		sudo cp cuda/include/cudnn.h /usr/local/cuda/include/
@@ -80,6 +81,7 @@ https://blog.csdn.net/wuzuyu365/article/details/52430657
 		sudo chmod a+r /usr/local/cuda/include/cudnn.h
 
 		sudo chmod a+r /usr/local/cuda/lib64/libcudnn*
+		
 	 - （3）查看cudnn版本
 	 
 
