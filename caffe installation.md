@@ -114,6 +114,7 @@ https://blog.csdn.net/xd1723138323/article/details/80498381
 
  
 	sudo apt-get install libboost-all-dev 
+	
 	在安装opevncv时会出现 ImportError: No module named cv2 的错误，找不到cv2的包。
 		这时候安装扩展包即可,打开终端输入下面代码：
 		pip install opencv-python
