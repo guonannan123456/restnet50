@@ -112,6 +112,9 @@ https://developer.nvidia.com/rdp/cudnn-archive
 
 https://blog.csdn.net/xd1723138323/article/details/80498381
 
+ 
+sudo apt-get install libboost-all-dev 依赖项要安装，不然会报错
+
 ### Adapt caffe config files
 1. download caffe: [github link](https://github.com/BVLC/caffe)
 
