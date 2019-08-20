@@ -371,6 +371,6 @@ caffe+python3.5的配置
 
 
 </pre>
-
-
+~/.bashrc
+#export PATHONPATH=/home/nan/caffe/python:$PATHONPATH
 
