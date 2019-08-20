@@ -371,6 +371,9 @@ caffe+python3.5的配置
 
 
 </pre>
+
 ~/.bashrc
+
 #export PATHONPATH=/home/nan/caffe/python:$PATHONPATH
 
+pip3 install tensorflow-gpu==1.9.0 -i https://pypi.douban.com/simple
