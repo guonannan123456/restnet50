@@ -379,3 +379,6 @@ caffe+python3.5的配置
 pip3 install tensorflow-gpu==1.9.0 -i https://pypi.douban.com/simple
 
 https://blog.csdn.net/Xu_XiaoXiao_Ji/article/details/90769664
+NFS 安装 ubuntu 16.04 
+https://www.cnblogs.com/tracey/p/8506334.html
+
