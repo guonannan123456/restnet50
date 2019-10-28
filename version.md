@@ -41,6 +41,7 @@ pytorch官网提供了previous versions of PyTorch安装选项，可根据需求
 https://blog.csdn.net/u013187057/article/details/81484857?utm_source=blogkpcl15
 
 ## 6 cuda和cudnn版本对应关系
-https://www.cnblogs.com/yeran/p/11345990.html
+https://developer.nvidia.com/rdp/cudnn-archive#a-collapse742-10
+![recent_develop](./img/cuda_cuDNN.png)
 
 
