@@ -1,4 +1,4 @@
-# Linux系统下利用anaconda创建虚拟环境并安装pytorch0.4.1和torchvision
+## Linux系统下利用anaconda创建虚拟环境并安装pytorch0.4.1和torchvision
 https://blog.csdn.net/amateur_hy/article/details/90716411
 
 + conda install pytorch torchvision cudatoolkit=9.0 -c pytorch
@@ -7,13 +7,21 @@ https://blog.csdn.net/amateur_hy/article/details/90716411
 
 pytorch官网提供了previous versions of PyTorch安装选项，可根据需求进行安装。
 
-·安装pytorch 0.4.1
+### 安装pytorch 0.4.1
 
 + conda install pytorch=0.4.1 cuda90 -c pytorch
 
 以上是cuda9.0版本的安装命令。
 
-·安装torchvision
+### 安装torchvision
 
 - conda install torchvision
+
+## 使用 PyTorch 测试 CUDA 是否安装成功
+很简单，只要下面两行代码：
+
+- import torch 
+- print(torch.cuda.is_available())
+
+返回结果是 True，则 PyTorch 的 GPU 安装成功；否则就是没有成功。
 
