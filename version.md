@@ -34,5 +34,8 @@ pytorch官网提供了previous versions of PyTorch安装选项，可根据需求
 - cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
 
 ## 4 CUDA对应的NVIDIA驱动版本对照表
+
+![recent_develop](./img/cuda_nvidia.png)
+
 https://img-blog.csdnimg.cn/2019052117274844.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3podzg2NDY4MDM1NQ==,size_16,color_FFFFFF,t_70
 
