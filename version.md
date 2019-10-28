@@ -36,6 +36,8 @@ pytorch官网提供了previous versions of PyTorch安装选项，可根据需求
 ## 4 CUDA对应的NVIDIA驱动版本对照表
 
 ![recent_develop](./img/cuda_nvidia.png)
+## 5 pytorch指定版本安装及查看版本
 
+https://blog.csdn.net/u013187057/article/details/81484857?utm_source=blogkpcl15
 
 
