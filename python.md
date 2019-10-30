@@ -13,15 +13,18 @@ axis=0, 表示列。
 axis=1, 表示行。
 ```
 #### 2.Python - 判断list是否为空
+
+Python中判断list是否为空有以下两种方式：<br>
+方式一：<br>
 ```
-Python中判断list是否为空有以下两种方式：
-方式一：
 list_temp = []
 if len(list_temp):
    # 存在值即为真
 else:
    # list_temp是空的
-方式二：
+  ```
+方式二：<br>
+```
 if list_temp:
    # 存在值即为真
 else:
