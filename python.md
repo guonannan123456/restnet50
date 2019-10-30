@@ -11,7 +11,7 @@ print c.sum(axis=1)
 axis=0, 表示列。
 axis=1, 表示行。
 ```
-### 2.Python - 判断list是否为空
+#### 2.Python - 判断list是否为空
 ```
 Python中判断list是否为空有以下两种方式：
 方式一：
