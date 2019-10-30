@@ -1,5 +1,5 @@
 
-### 1.python--sum函数--sum(axis=1)
+#### 1.python--sum函数--sum(axis=1)
 ```
 平时用的sum应该是默认的axis=0 就是普通的相加，当加入axis=1以后就是将一个矩阵的每一行向量相加。
 例如：
