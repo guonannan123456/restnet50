@@ -1,5 +1,7 @@
 https://www.cnblogs.com/blog4ljy/p/10482474.html
 
+https://www.jianshu.com/p/18dabefa6778
+
 # 1.PIL中的Image和numpy中的数组array相互转换
 +1. PIL image转换成array
 
@@ -15,7 +17,7 @@ img.flags.writeable = True # 将数组改为读写模式
 
  im = Image.open("lena.jpg")
 
- # 显示图片
+ #显示图片
  im.show() 
 
  im = im.convert("L") 
