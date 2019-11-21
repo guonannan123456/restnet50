@@ -1,6 +1,6 @@
 https://www.cnblogs.com/blog4ljy/p/10482474.html
 
-1.PIL中的Image和numpy中的数组array相互转换
+# 1.PIL中的Image和numpy中的数组array相互转换
 +1. PIL image转换成array
 
 img = np.asarray(image)
@@ -13,14 +13,14 @@ img.flags.writeable = True # 将数组改为读写模式
 
 或者
 
-+ im = Image.open("lena.jpg")
+ im = Image.open("lena.jpg")
 
-+ # 显示图片
-+ im.show() 
+ # 显示图片
+ im.show() 
 
-+ im = im.convert("L") 
-+ data = im.getdata()
-+ data = np.matrix(data)
+ im = im.convert("L") 
+ data = im.getdata()
+ data = np.matrix(data)
 
 或者
 
