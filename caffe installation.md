@@ -189,6 +189,7 @@ error at make all:
 	caffe.cpp:(.text+0x15eb): undefined reference to `caffe::Net<float>::CopyTrainedLayersFrom(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)` collect2: error: ld returned 1 exit status
 </pre>
 solve:
+
 <pre>
 	delete libcaffe.so present under /usr/local/lib
 </pre>
