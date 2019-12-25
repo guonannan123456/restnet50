@@ -31,3 +31,5 @@ else:
    # list_temp是空的
 ```
 https://www.cnblogs.com/xuanyuyt/p/7222867.html
+
+fuser -v /dev/nvidia*|cut -c 1-1000|xargs ps -u --pid
