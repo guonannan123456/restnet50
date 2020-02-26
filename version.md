@@ -44,4 +44,13 @@ https://blog.csdn.net/u013187057/article/details/81484857?utm_source=blogkpcl15
 https://developer.nvidia.com/rdp/cudnn-archive#a-collapse742-10
 ![recent_develop](./img/cuda_cuDNN.png)
 
+## 7 install 搜狗输入法
+https://blog.csdn.net/u010648921/article/details/82624219
+
+## 8 install pytorch
+https://blog.csdn.net/watermelon1123/article/details/88122020
+
+## 9 install anaconda
+https://blog.csdn.net/u012243626/article/details/82469174
+
 
