@@ -112,7 +112,13 @@ https://developer.nvidia.com/rdp/cudnn-archive
 
 https://blog.csdn.net/xd1723138323/article/details/80498381
 
+cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D WITH_TBB=ON -D BUILD_SHARED_LIBS=OFF -D WITH_OPENMP=ON -D ENABLE_PRECOMPILED_HEADERS=OFF ..
  
+make -j4
+ 
+sudo make install
+
+
 	sudo apt-get install libboost-all-dev 
 	
 	在安装opevncv时会出现 ImportError: No module named cv2 的错误，找不到cv2的包。
