@@ -146,7 +146,16 @@ sudo make install
 	-gencode arch=compute_20,code=sm_20
 	-gencode arch=compute_20,code=sm_21
 </pre>
++ 3.4 修改Makefile.config文件中使用opencv
+<pre> 
+         OPENCV_VERSION := 3 注释掉，只修改USE_OPENCV := 1
 
+         修改后的结果：
+
+         USE_OPENCV := 1
+
+         #OPENCV_VERSION := 3
+</pre>
 4. fix libhdf5 links
 <pre>
 	find . -type f -exec sed -i -e 's^"hdf5.h"^"hdf5/serial/hdf5.h"^g' -e 's^"hdf5_hl.h"^"hdf5/serial/hdf5_hl.h"^g' '{}' \;
