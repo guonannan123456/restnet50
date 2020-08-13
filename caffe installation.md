@@ -155,6 +155,15 @@ sudo make install
          USE_OPENCV := 1
 
          #OPENCV_VERSION := 3
+
+在caffe根目录下，找到Makefile文件，打开文件
+
+         查找“Derive include and lib directories”一节，修改“LIBRARIES +=”的最后一行（LIBRARIES +=opencv_imgcodecs ），增加opencv_imgcodecs
+
+         opencv_core opencv_highgui opencv_imgproc opencv_imgcodecs
+
+         （此时应该变为LIBRARIES += opencv_imgcodecs  opencv_core opencv_highgui opencv_imgproc opencv_imgcodecs）
+
 </pre>
 4. fix libhdf5 links
 <pre>
