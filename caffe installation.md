@@ -331,6 +331,38 @@ solve:
 </pre>
 
 10.
+error：
+<pre>
+	/usr/bin/ld: cannot find -lopencv_imagecodecs
+</pre>
+solve:
+<pre>
+	 先将Makefile.config文件中
+
+         OPENCV_VERSION := 3 注释掉，只修改USE_OPENCV := 1
+
+         修改后的结果：
+
+         USE_OPENCV := 1
+
+         #OPENCV_VERSION := 3
+
+         在caffe根目录下，找到Makefile文件，打开文件
+
+         查找“Derive include and lib directories”一节，修改“LIBRARIES +=”的最后一行（LIBRARIES +=opencv_imgcodecs ），增加opencv_imgcodecs
+
+         opencv_core opencv_highgui opencv_imgproc opencv_imgcodecs
+
+         （此时应该变为LIBRARIES += opencv_imgcodecs  opencv_core opencv_highgui opencv_imgproc opencv_imgcodecs）
+
+          保存，退出。
+
+         注意：在做前边的基础工作是将Makefile.config文件中
+
+         OPENCV_VERSION := 3 注释掉，只修改USE_OPENCV := 1
+</pre>
+
+11.
 install python3.5
 
 【说明】
