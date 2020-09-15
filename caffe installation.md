@@ -8,6 +8,10 @@ https://github.com/BVLC/caffe/wiki/Ubuntu-16.04-or-15.10-Installation-Guide
 https://blog.csdn.net/wuzuyu365/article/details/52430657
 
 
+torch安装
+
+pip3 install torch==1.6.0+cu101 torchvision==0.7.0+cu101 -f https://download.pytorch.org/whl/torch_stable.html
+
 ## Install thirdparty packages
 ### 1. install packages
 <pre> 
